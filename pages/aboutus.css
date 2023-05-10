@@ -1,0 +1,80 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/1221299.jpg);
+    background-repeat: repeat;
+    backdrop-filter: blur(3px);
+    font-family: "Sofia";
+    
+    
+}
+  
+.navbar {
+    background-color:#b2d4fa;
+    padding: 20px 0px 20px 0px;
+    overflow: hidden;
+    width: 18%;
+    height: 35%;
+    text-align: center;  
+    font-family: "Sofia";
+    font-size: 35px;
+    border-style: solid;
+    border-color: white;
+}
+.navbar img{
+    clip-path: circle();
+    width: 100%;
+}
+
+.navbar a {
+   color:black;
+    font-weight: bold;
+    font-family: 'Sofia';
+    font-size: 48px;
+    
+}
+.navbar1{
+    background-color:#FCC2C0ff;
+    width:18%;
+    height: 66%;
+    border-style: solid;
+    border-color: white;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    
+}
+.navbar1 a{
+    color: black;
+}
+.welcome {
+    background-color: rgb(251, 249, 252); 
+    background-color: rgba(250, 247, 248, 0.6);
+    color:black;
+    font-weight: bold;
+    border-radius: 15px;
+    position:absolute;
+    font-size: 20px;
+    top:45%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 40%;
+    padding: 20px;
+    height: 70%;
+    text-align: center;
+    display: block
+  }
+  .column{
+    width: 19%;
+  
+  }
+  .img1{
+    width: 5%;
+    float: right;
+    margin-top: -287%;
+    opacity: 0.4;
+    display: grid;
+    
+  }
+  
+  

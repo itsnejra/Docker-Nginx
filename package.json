@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "My App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "mkdir -p build && cp -R pages/* build/"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+

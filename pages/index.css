@@ -1,0 +1,271 @@
+/*za mobitel */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* za tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body{
+    background-color: red;
+  }
+}
+/* za racunar*/
+@media only screen and (min-width: 961px) {
+
+body{
+
+/*Dodajemo font Sofia koji ce se primijeniti unutar cijelog body dijela*/
+   font-family:Sofia;
+   background-color: white;
+   background-size: cover;
+   
+   text-align: center;
+   font-size: 20px;
+
+}
+.header {
+    text-align: center;
+    background:#feffff;
+    opacity: 0.9;
+    position: sticky;
+    padding: 20px;
+    font-size: 30px;
+    height: 40px;
+    position: sticky;
+    top: 0px;
+    border: solid black;
+
+
+}
+.header a{
+    float: left;
+    color:white;
+    text-align: center;
+    margin-top: -0.5%;
+    
+}
+.button{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.8;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  float: right;
+  gap: 2px;
+  border-radius: 35px;
+}
+.button:hover {opacity: 1}
+.button1{
+    background-color: #f4511e;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.9;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    border-radius: 35px;
+    
+  }
+  a{
+  color: white;
+  }
+  .button2{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.9;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    margin-left: 3%;
+    border-radius: 35px;
+  }
+  .button3{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.9;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    margin-left: 3%;
+    border-radius: 35px;
+  }
+.image{
+    background-image: url(https://www.bajaga.com/pics/bajaga-bg.jpg);
+    background-size: cover; /*ovo dodajemo da bi se slika popunila citav dio*/
+    height: 370px;
+    margin-top: -5%;
+  
+}
+
+  .title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    background-color:#f4511e;
+    margin-top: -4.1%;
+    opacity: 0.85;
+    padding-bottom: 2px;
+}
+.block{
+  width: 300px;
+  background-color:black;
+  color: white;
+  opacity: 0.5;
+}
+.uvod{
+  font-family: "Sofia";
+  text-align: center;
+  margin-top: 3%;
+}
+
+.main{
+  background-image: url(https://wallpaperaccess.com/full/3022410.jpg);
+  background-size: cover;
+  height: 80%;
+  display: flex;
+  opacity: 0.6; /*ovo dodajemo da bi sadrzaj ucinili prozirnim u određenoj mjeri*/
+  margin-top: -0.7%;
+}
+.text{
+  background-color: #feffff;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.emptyline{
+  height: 10%;
+  background-color:#f4511e;
+  opacity: 0.8;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  left: 27%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+}
+
